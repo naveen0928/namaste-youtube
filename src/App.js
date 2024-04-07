@@ -1,5 +1,7 @@
-function App() {
-  return <div className="font-bold text-lg text-center">Namaste Netflix!!</div>;
-}
+import Body from "./components/Body";
+
+const App = () => {
+  return <Body />;
+};
 
 export default App;
