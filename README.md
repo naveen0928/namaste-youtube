@@ -11,3 +11,10 @@
     - firebase init
     - npm run build - To build the project and asking firebase to deploy
     - firebase deploy - https://netflixgpt-a0d7c.web.app
+
+--- Why console is happening two time in browser? 
+    - Because of <React.StrictMode></React.StrictMode> in index.js and it is defaultly given to us bt create-react-app
+    - It logs more than once only in local but not in production
+    - Also, react renders for extra rendering to maintain consistency. So it is logging more than once
+
+--- Early return - returning null or something before it renders which actually breaks the page

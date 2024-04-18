@@ -3,3 +3,14 @@ export const HEADER_LOGO =
 
 export const DASHBOARD_BG =
   "https://assets.nflxext.com/ffe/siteui/vlv3/7ca5b7c7-20aa-42a8-a278-f801b0d65fa1/fb548c0a-8582-43c5-9fba-cd98bf27452f/IN-en-20240326-popsignuptwoweeks-perspective_alpha_website_large.jpg";
+
+export const photoURL = "https://avatars.githubusercontent.com/u/7604?v=4";
+
+export const API_OPTIONS = {
+  method: "GET",
+  headers: {
+    accept: "application/json",
+    Authorization:
+      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiY2IxMGEzYjNkZmE2ZWNiNzljYTliMTA5MzQwZmM4YiIsInN1YiI6IjY2MWRmOTk5MDgxNmM3MDE3Y2VkZTNhMyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.iDQg2PxRVj9T093jj5xDNVEWYU5llo2xXm9kAq6hep0",
+  },
+};
