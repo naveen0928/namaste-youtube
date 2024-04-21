@@ -20,8 +20,8 @@ const useNowPlayingMovies = () => {
   };
 
   useEffect(() => {
-    if (nowPlayingMovies) getNowPlayingMovies();
-  }, []);
+    getNowPlayingMovies();
+    }, []);
 };
 
 export default useNowPlayingMovies;
