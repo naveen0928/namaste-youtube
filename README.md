@@ -18,3 +18,11 @@
     - Also, react renders for extra rendering to maintain consistency. So it is logging more than once
 
 --- Early return - returning null or something before it renders which actually breaks the page
+
+--- https://platform.openai.com/ -> under profile -> API keys
+    - npm openai
+
+--- Default behavior of a form is to submit and refreshes the page 
+
+--- Memoization - If data is already in the store then we will not make an api call again to fetch, instead use the store data
+                - check useNowPlayingMovies.js - LINE - 9 and useeffect()

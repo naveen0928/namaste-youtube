@@ -52,6 +52,7 @@ const Header = () => {
 
     // called when component unmounts
     return () => unsubscribe();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
@@ -60,7 +61,7 @@ const Header = () => {
       {user && (
         <div className="flex">
           {showLangSelect && (
-            <select className="p-2 m-4 bg-gray-500" onChange={handleLangChange}>
+            <select className="p-2 m-4 bg-gray-500 rounded-sm" onChange={handleLangChange}>
               {LANGUAGE_IDENTIFIERS.map((lang) => {
                 return (
                   <option key={lang.identifier} value={lang.identifier}>
