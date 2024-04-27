@@ -1,6 +1,6 @@
 import { USER_ICON } from "../utils/Constants";
 
-const LiveComments = ({name, message}) => {
+const LiveComments = ({ name, message }) => {
   return (
     <div className="flex items-center">
       <img className="w-10 h-10" alt="user-icon" src={USER_ICON} />

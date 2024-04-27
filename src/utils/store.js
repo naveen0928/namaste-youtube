@@ -7,7 +7,7 @@ const store = configureStore({
   reducer: {
     app: appSlice,
     cache: cacheSlice,
-    chat: chatSlice
+    chat: chatSlice,
   },
 });
 

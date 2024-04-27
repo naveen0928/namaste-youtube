@@ -11,6 +11,7 @@ const WatchPage = () => {
 
   useEffect(() => {
     dispatch(closeSidebar());
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
@@ -29,7 +30,7 @@ const WatchPage = () => {
           ></iframe>
         </div>
         <div className="w-full">
-            <Livechat />
+          <Livechat />
         </div>
       </div>
       <CommentsContainer />
