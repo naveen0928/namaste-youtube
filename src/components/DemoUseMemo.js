@@ -16,6 +16,7 @@ const DemoUseMemo = () => {
       }
     >
       <div>
+        <h1 className="flex justify-center font-extrabold text 2xl">useMemo</h1>
         <button
           className="p-2 m-2 bg-green-400"
           onClick={() => setIsDarkTheme(!isDarkTheme)}

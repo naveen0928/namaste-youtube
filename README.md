@@ -23,3 +23,4 @@ Debouncing with 200ms (If some one says)
                                    - Example - GMAIL, CRICBUZZ
 
 useMemo - cache the result of calculation between re-renders
+useRef - lets you reference a value that is not needed for rendering
