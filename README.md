@@ -21,3 +21,5 @@ Debouncing with 200ms (If some one says)
     2. API Polling or Long polling - UI sends the request to server and server gives UI the data
                                    - Its one directional and server sends the payload after some interval
                                    - Example - GMAIL, CRICBUZZ
+
+useMemo - cache the result of calculation between re-renders
